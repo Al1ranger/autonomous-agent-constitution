@@ -43,4 +43,4 @@ genlayer network set studionet
 genlayer deploy --contract contracts/AutonomousAgentConstitution.py
 ```
 
-Direct tests cover deterministic guards and mocked semantic decisions, not live multi-validator consensus. See `LIVE_PROOFS.md` for finalized deployment and positive/negative ratification transactions. The pinned GenVM runner is declared on the contract's first line.
+Direct tests cover deterministic guards and mocked semantic decisions, not live multi-validator consensus. The [StudioNet deployment](https://explorer-studio.genlayer.com/address/0x46376CaD05E867EC703Aa636cD1972f807d4887C) and finalized positive/negative ratification transactions are indexed in [LIVE_PROOFS.md](LIVE_PROOFS.md). The pinned GenVM runner is declared on the contract's first line.
